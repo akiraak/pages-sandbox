@@ -1,0 +1,13 @@
+body {
+  background-color: #071a2b;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+#myChart {
+  width: 100%;
+}
