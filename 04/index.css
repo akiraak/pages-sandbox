@@ -1,0 +1,16 @@
+body {
+  /*background-color: #071a2b;*/
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+}
+
+.chart_container {
+  position: relative;
+  height: 30vh;
+  width: 40vw
+}
