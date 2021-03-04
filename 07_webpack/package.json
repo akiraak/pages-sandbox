@@ -1,0 +1,19 @@
+{
+  "name": "07_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chart.js": "^2.9.4",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "private": true
+}
