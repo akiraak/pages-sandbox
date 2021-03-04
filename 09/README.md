@@ -1,14 +1,16 @@
 # TypeScript から Chart.js を使うまで
 
 
-モジュール類をインストール
+### モジュール類をインストール
+
 ```
 $ npm init -y
 $ npm i -D webpack webpack-cli typescript ts-loader
 $ npm i -S chart.js
 ```
 
-package.json にスクリプトを追加
+### package.json にスクリプトを追加
+
 ```json
 {
   "scripts": {
@@ -19,7 +21,8 @@ package.json にスクリプトを追加
 }
 ```
 
-tsconfig.json を作成
+### tsconfig.json を作成
+
 ```json
 {
   "compilerOptions": {
@@ -31,7 +34,8 @@ tsconfig.json を作成
 }
 ```
 
-webpack.config.js を作成
+### webpack.config.js を作成
+
 ```js
 module.exports = {
   mode: 'development',
@@ -52,13 +56,13 @@ module.exports = {
 };
 ```
 
-src ディレクトリを作成
+### src ディレクトリを作成
 
 ```
 $ mkdir src
 ```
 
-src/main.ts を作成
+### src/main.ts を作成
 ```ts
 import { Chart } from "chart.js"
 
@@ -92,11 +96,14 @@ const chart = new Chart(ctx, {
 })
 ```
 
+### dist ディレクトリを作成
+
 ```
 $ mkdir dist
 ```
 
-dist/index.html を作成
+### dist/index.html を作成
+
 ```html
 <!DOCTYPE html>
 <html lang='en'>
@@ -114,13 +121,19 @@ dist/index.html を作成
 </html>
 ```
 
-ビルドして main.js を作成
+### ビルドして main.js を作成
+
 ```
 $ npm run build
 ```
 
-ファイル更新を監視して自動ビルド
+### ファイル更新を監視して自動ビルド
+
 ```
 $ npm run watch
 ```
 
+
+### 出力物
+
+https://akiraak.github.io/pages-sandbox/09/dist/
