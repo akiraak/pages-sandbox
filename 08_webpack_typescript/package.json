@@ -1,0 +1,21 @@
+{
+  "name": "08_webpack_typescript",
+  "version": "1.0.0",
+  "description": "``` npm init -y npm i -D webpack webpack-cli mkdir src mkdir dist ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "private": true
+}
