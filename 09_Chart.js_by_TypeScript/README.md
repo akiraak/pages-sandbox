@@ -136,4 +136,4 @@ $ npm run watch
 
 ### 出力物
 
-[https://akiraak.github.io/pages-sandbox/09/dist/](https://akiraak.github.io/pages-sandbox/09/dist/)
+[https://akiraak.github.io/pages-sandbox/09_Chart.js_by_TypeScript/dist/](https://akiraak.github.io/pages-sandbox/09_Chart.js_by_TypeScript/dist/)
